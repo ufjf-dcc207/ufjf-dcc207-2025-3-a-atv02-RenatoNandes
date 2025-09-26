@@ -1,10 +1,12 @@
-// arquivo src/Disciplina.tsx
+import "\./disciplina.css"
 
 export default function Disciplina (){
     return (
         <>
-            <div>DCC207</div>
-            <div>Desenvolvimento Web Front-End</div>
+            <div className="disciplina">
+                <h1>DCC207</h1>
+                <h2>Desenvolvimento Web Front-End</h2>
+            </div>
         </>
     );
 }
